@@ -13,5 +13,7 @@ Navigate to localhost:2400/swagger
 # Added make.sh - Permission
 
 ```bash
-git update-index --chmod=+x ./
+chmod +x ./make.sh
 ```
+
+https://github.com/marketplace/actions/github-pages-action#%EF%B8%8F-create-ssh-deploy-key
