@@ -8,3 +8,5 @@ mkdir dist && \
 mv redoc-static.html ./dist/index.html && \
 echo "Changed name from redoc-static.html to index.html" && \
 echo -e "\nDone!"
+
+
