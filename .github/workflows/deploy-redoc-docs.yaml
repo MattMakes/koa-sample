@@ -15,7 +15,7 @@ jobs:
       run: ./make.sh
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3 # https://github.com/peaceiris/actions-gh-pages
-      with:
+      With:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         publish_dir: .
         force_orphan: true
