@@ -4,7 +4,7 @@ name: Build docs
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -13,8 +13,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build docs
       run: ./make.sh
-    - name: Echoooo
-      run: echo ${{ secrets.ACTIONS_DEPLOY_KEY }}
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3 # https://github.com/peaceiris/actions-gh-pages
       with:
